@@ -19,6 +19,10 @@
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <data android:mimeType="text/plain"/>
+
+                <data android:scheme="http" android:host="www.mydomain.com" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
